@@ -1,0 +1,338 @@
+body{
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+h1{
+    font-size: 70px !important;
+    text-align: center !important;
+    color: #f4f4f4 !important; 
+    font-weight: 340px !important;
+    margin-top: 85px;
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 25px;
+    font-weight: 400;
+}
+#p{
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    color: #f4f4f4 !important; 
+    font-weight: 340px !important;
+    
+}
+a{
+    text-decoration: none !important;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
+.btn{
+    background-color: #E6E427;
+    border: 2px solid #c3cf11;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 25px;
+    padding: 0 20px 0 20px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.btn:hover{
+    background-color: rgb(174, 185, 17);
+    color: rgb(27, 27, 27);
+    border: 2px solid #98a110;
+}
+.navbar-brand.nop-padding{
+    padding-top: 10px !important;
+}
+.navbar{
+    border-bottom: 4px solid #F40D0D;
+}
+.navbar-brand{
+    font-size: 800;
+    font-size: 25px;
+}
+.l{
+    color: #4351F1;
+}
+.i{
+    color: #F40D0D;
+}
+.v{
+    color: #3AD73A;
+}
+
+/*Header*/
+
+.jumbotron{
+    position: relative;
+    background-image: url(../img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg);
+    background-position: top center;
+    height: 500px;
+    margin-bottom: 0;
+}
+.jumbotron::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: rgba(80, 80, 80, 0.418);
+}
+.header{
+    margin-top: 80px;
+}
+
+/*boletin*/
+#boletin{
+    padding: 0 0 0 15px;
+    color: #fff;
+    background-color: #24282b;
+}
+#boletin h2{
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#boletin form{
+    margin-top: 20px;
+    float: right;
+}
+#boletin input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/*Cajas*/
+
+#cajas{
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+}
+.p-cajas{
+    text-align: center;
+    font-size: 16px;
+}
+#cajas img{
+    margin-left: 30px;
+}
+
+/*footer*/
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #24282b;
+    text-align: center;
+}
+.p-footer{
+    font-size: 15px;
+}
+
+/*Nosotros*/
+
+h4{
+    text-align: center;
+    height: 100px;
+    background-color:  #4351F1;
+    padding-top: 25px;
+    font-size: 40px;
+    font-size: 800;
+    border-radius: 5px;
+    color: #fff;
+}
+h5{
+    text-align: center;
+}
+#img-nosotros{
+    margin-left: 75px;
+}
+
+/*servicios*/
+
+#img-servicios{
+    margin: 0;
+}
+.panel-heading, .panel{
+    background-color: #5fabe6c0 !important;
+    width: 300px;
+}
+h6{
+    text-align: center;
+    font-weight: 600;
+}
+.panel-body{
+    background-color: #55aceec0 !important
+}
+.img-desarollo{
+    margin-top: 15px;
+}
+.caja-proyecto{
+    border: 5px groove #24282b;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    height: 360px;
+}
+.proyectos-img{
+    margin: 20px 5px 20px 5px;
+}
+
+/*Metadatos*/
+/* telefonos */
+@media only screen and (min-width: 250px) and (max-width: 568px){
+    .jumbotron{
+        height: 600px;
+        width: 100%;
+    }
+    .header{
+        margin-top: 30px;
+        height: 150px;
+    }
+    h1{
+        margin-top: 80px !important;
+        font-size: 50px !important;
+    
+    }
+    #cajas img{
+        margin-left: 80px;
+    }
+    #boletin{
+        margin: 0;
+        padding: 0;
+    }
+    #boletin h2{
+        float: none;
+        text-align: center;
+    }
+    #boletin form{
+        margin: 10px 0 20px 90px;
+        float: none;
+
+    }
+    #boletin input[type="email"]{
+        width: 160px;
+    }
+    #boletin button{
+        margin-left: 20px;
+    }
+    #cajas img{
+        margin-left: 8%;
+    }
+    body{
+        width: 100% !important;
+    }
+    #img-nosotros{
+        width: 300px;
+        height: 300px;
+        margin-left: 25px;
+    }
+    .servicios{
+        margin-left: 6%;
+    }
+    .caja-proyecto img{
+        width: 97%;
+    }
+
+
+}
+/* tablets pequeñas portatiles y horizontal */
+@media only screen and (min-width: 569px) and (max-width: 767px){
+    .jumbotron{
+        width: 100%;
+    }
+    .header{
+        height: 160px;
+        margin-left: 20%;
+        margin-top: 15px;
+    }
+    h1{
+        font-size: 5px;
+        margin: 15px 0 0 0;
+    }
+    .h2{
+        font-size: 18px;
+    }
+    #boletin form{
+        margin-top: 10px;
+    }
+    #cajas img{
+        margin-left: 25%;
+    }
+
+
+}
+/*tablets grandes ipads*/
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .jumbotron{
+        width: 100%;
+    }
+    .header{
+        height: 160px;
+        margin-left: 25%;
+        margin-top: 15px;
+    }
+    h1{
+        font-size: 5px;
+        margin: 15px 0 0 0;
+    }
+    #cajas img{
+        margin-left: 30%;
+    }
+    #img-nosotros{
+        margin-left: 20%;
+    }
+    .servicios{
+        margin-left: 29%;
+    }
+    .caja-proyecto img{
+        width: 99%;
+    }
+
+
+}
+/*Saber pero lo hice*/
+
+@media only screen and (min-width: 993px) and (max-width: 1199px){
+    .jumbotron{
+        width: 100%;
+    }
+    .jumbotron p{
+        margin-right: 5px;
+    }
+    #container-index{
+        margin-top: 70px;
+    }
+    .header{
+        height: 150px;
+        margin-left: 15%;
+        margin-top: 15px;
+    }
+    h1{
+        font-size: 5px;
+        margin: 15px 0 0 0;
+    }
+    #cajas img{
+        margin-left: 0%;
+    }
+    #img-nosotros{
+        margin-left: 30px;
+    }
+    #boletin button{
+        margin-left: 14%;
+    }
+    .caja-proyecto img{
+        width: 98%;
+    }
+
+}
